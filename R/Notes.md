@@ -19,4 +19,25 @@ Notes on r programming learning
 > ```
 > ```dim(m)``` can access the dimension of the matrix
 > 
-> Written with [StackEdit](https://stackedit.io/).
+
+
+####set.seed()
+> use ```set.seed()``` to make sure the random generated sequence is reproducible
+
+####subset()
+> ```?subset``` gives the **description**:
+> Return subsets of vectors, matrices or data frames which meet conditions.
+
+####R profiling
+>do not use ```system.time()``` and ```Rprof()```  together
+>the use of ```Rprof()```
+>```
+>Rprof(filename)
+>time-consumed_function_call()
+>Rprof(NULL)
+>summaryRprof(filename)
+>```
+
+
+
+Written with [StackEdit](https://stackedit.io/).
