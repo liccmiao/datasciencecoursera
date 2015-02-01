@@ -70,6 +70,14 @@ get the total number of TRUEs.
 >sum(my_na)
 >```
 
+#### subset vector except the 2nd and 10th element
+> given ```v <- 1:40```
+> ```v[c(2,10)]``` gives the 2nd and 10th element which is 2 and 10
+> ```v[c(-2,-10)]``` gives all elements except the 2nd and 10th element
+
+#### dim on a vector gets NULL, using length() on vector
+
+
 
 
 Written with [StackEdit](https://stackedit.io/).
