@@ -77,7 +77,33 @@ get the total number of TRUEs.
 
 #### dim on a vector gets NULL, using length() on vector
 
+#### & && | || xor()
+> '&' and '|' evaluate across a vector
+> '&&' and '||' only evaluate the first element of vector
+> '&' or '&&' evaluate befor '|' or '||' as well
+> xor(a, b) evaluate the exclusive OR of a and b
 
+#### which()
+> return the indices of TRUE in a vector given by the logical paramter 
+> ```
+> >ints <- sample(1:100, 10)
+> >ints
+> [1] 16 50 56 14 40 49 29 64 32 97
+> >which(ints >50)
+> [1]  3  8 10
+> ```
+
+#### any() all()
+> Description : 
+> Given a set of logical vectors, is at least one of the values true?
+> ```
+> >ints <- 1:10
+> >any(ints < 0)
+> [1] FALSE
+> >ints <- rep(1,10)
+> >all(ints ==1)
+> [1] TRUE
+> ```
 
 
 Written with [StackEdit](https://stackedit.io/).
