@@ -15,7 +15,10 @@ the Data Science Specification link is : https://www.coursera.org/specialization
 
 > waiting for Grade
 
-3.swirl interactively learning R, more info here http://swirlstats.com/
+3.Getting and Cleaning Data in progress
+> the course url is https://class.coursera.org/getdata-011
+
+4.swirl interactively learning R, more info here http://swirlstats.com/
 > R Programming
 > **done**:
 >>1: Basic Building Blocks      
