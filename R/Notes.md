@@ -105,5 +105,27 @@ get the total number of TRUEs.
 > [1] TRUE
 > ```
 
+#### download.file()
+> important parameters :
+> url
+> destfile
+> method
+> if the url start with http, no need to specify the method
+> if the url start with https on windows, no need either
+> if the url start with https on Mac, specify method with "curl" would be helpful
 
+#### package xlsx for read/write excel files
+
+> ```
+> library(xlsx)
+> read.xlsx(filename, sheetIndex = 1, header = TRUE)
+> ```
+> or you can just read partial EXCEL
+> ```
+> library(xlsx)
+> read.xlsx(filename, sheetIndex = 1, header = TRUE, rowIndex = 1:3, colIndex = 2:4)
+> ```
+> ```write.xlsx``` can be used to write EXCEL with similar usage
+
+#### 
 Written with [StackEdit](https://stackedit.io/).
