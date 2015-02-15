@@ -127,5 +127,20 @@ get the total number of TRUEs.
 > ```
 > ```write.xlsx``` can be used to write EXCEL with similar usage
 
+#### readLines and nchar
+
+> ```
+> nchar_ithline <- function(fn, lines = c(1,-1)){
+> filecontents <- readLines(file(fn))
+> nchar(filecontents[lines])
+> }
+> ```
+
+#### read.fwf for reading fixed width format file(*.for)
+> ``` 
+> fwf.df <- read.fwf(file = url("http://www.cpc.ncep.noaa.gov/data/indices/wksst8110.for"),c(10,9,4,9,4,9,4,9,4), skip = 4)
+> ```
+
+
 #### 
 Written with [StackEdit](https://stackedit.io/).
