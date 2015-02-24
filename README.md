@@ -8,15 +8,17 @@ the Data Science Specification link is : https://www.coursera.org/specialization
 1.Data Scientist's Toolbox is finished on Dec 20, 2014
 > the course url is https://class.coursera.org/datascitoolbox-016
 
-> Grade Archieved: 100.0%
+> Grade Achieved: 100.0% with Distinction
 
 2.R programming is finished on Feb 1st, 2015
 > the course url is https://class.coursera.org/rprog-010
 
-> waiting for Grade
+> Grade Achieved: 100.0% with Distinction
 
 3.Getting and Cleaning Data in progress
-> the course url is https://class.coursera.org/getdata-011
+> https://class.coursera.org/getdata-011 as first try given up for the break during spring festival
+
+> next try shall begin at Mar 2 ~ Mar 30th
 
 4.swirl interactively learning R, more info here http://swirlstats.com/
 > R Programming
