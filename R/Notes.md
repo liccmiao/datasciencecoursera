@@ -141,6 +141,28 @@ get the total number of TRUEs.
 > fwf.df <- read.fwf(file = url("http://www.cpc.ncep.noaa.gov/data/indices/wksst8110.for"),c(10,9,4,9,4,9,4,9,4), skip = 4)
 > ```
 
+#### sort, order, arrange
+> ```
+> set.seed(47)
+> d <- data.frame ( c1=sample(1:5), c2=sample(6:10), c3=c(11,NA,NA,14,15))
+> sort(d$c1)
+> [1] 1 2 3 4 5
+> d[order(d$c1),]
+  c1 c2 c3
+1  1  7 11
+3  2  9 NA
+2  3  6 NA
+5  4  8 15
+4  5 10 14
+> library(plyr)
+> arrange(d,desc(d$c3)
+> c1 c2 c3
+1  4  8 15
+2  5 10 14
+3  1  7 11
+4  3  6 NA
+5  2  9 NA
+>```
 
 #### 
 Written with [StackEdit](https://stackedit.io/).
