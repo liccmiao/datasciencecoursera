@@ -18,7 +18,7 @@ the Data Science Specification link is : https://www.coursera.org/specialization
 3.Getting and Cleaning Data in progress
 > https://class.coursera.org/getdata-011 as first try given up for the break during spring festival
 
-> next try shall begin at Mar 2 ~ Mar 30th
+> next try Apr 6 ~ May 4
 
 4.swirl interactively learning R, more info here http://swirlstats.com/
 > R Programming
@@ -39,6 +39,8 @@ the Data Science Specification link is : https://www.coursera.org/specialization
 12: Simulation              
 13: Dates and Times           
 14: Base Graphics
+
+5. Introduction to Computational Finance and Financial Econometrics(https://class.coursera.org/compfinance-008) in progress
 
   
 Written with [StackEdit](https://stackedit.io/).
