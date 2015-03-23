@@ -1,3 +1,4 @@
+
 datasciencecoursera
 ===================
 
@@ -33,14 +34,14 @@ the Data Science Specification link is : https://www.coursera.org/specialization
 
 > **todo**:
 >>8: Logic                   
-9: lapply and sapply         
-10: vapply and tapply       
-11: Looking at Data           
-12: Simulation              
-13: Dates and Times           
-14: Base Graphics
+>>9: lapply and sapply         
+>>10: vapply and tapply       
+>>11: Looking at Data           
+>>12: Simulation              
+>>13: Dates and Times           
+>>14: Base Graphics
+> 
 
-5. Introduction to Computational Finance and Financial Econometrics(https://class.coursera.org/compfinance-008) in progress
+5.Introduction to Computational Finance and Financial Econometrics(https://class.coursera.org/compfinance-008) in progress
 
-  
 Written with [StackEdit](https://stackedit.io/).
